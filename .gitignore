@@ -1,0 +1,22 @@
+# Environment / secrets
+.env
+.env.*
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Logs
+*.log
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
